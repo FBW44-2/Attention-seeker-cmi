@@ -13,33 +13,33 @@ body {
 .container {
   margin: 20% auto;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  flex-wrap: nowrap;
-  flex-gap: 2px;
-  width: 30%;
-  height: 70px;
+  width: 200px;
+  padding: 10px;
   border-radius: 30px;
   background-color: pink;
+  justify-content: center;
 }
 
-.text-box,
-h1 {
+/* h1 {
   font-size: 1.2rem;
-  text-align: right;
   padding-right: 10px;
-}
-.shake {
+} */
+/* .shake {
   animation-name: shake;
   animation-duration: 0.8s;
   transform-origin: 50% 50%;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
+} */
+
 img {
-  display: block;
-  padding-left: 10px;
-  width: 40%;
+  width: 40px;
+  animation-name: shake;
+  animation-duration: 0.8s;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 @keyframes shake {
   0% {
